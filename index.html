@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaliSpot</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron:700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo-tagline">
+        <h1>CaliSpot</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" id="near-me">NEAR ME</a></li>
+          <li><a href="#" id="choose-location">CHOOSE LOCATION</a></li>
+          <li>
+            <select id="equipment-filter">
+              <option>All Equipment</option>
+              <option>Pull-up Bars</option>
+              <option>Dip Bars</option>
+              <option>Parallel Bars</option>
+              <option>Monkey Bars</option>
+              <option>Rings</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="map">
+      <div class="custom-zoom">
+        <button id="zoom-in" title="Zoom in">+</button>
+        <button id="zoom-out" title="Zoom out">-</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <span>© 2024 CaliSpot</span>
+      <span class="footer-links">
+        <a href="#">Instagram</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Privacy Notice</a>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Hjortedam Forest Pullup Bar",
+    "lat": 55.771694,
+    "lng": 12.547472,
+    "equipment": ["pullup-bar"]
+  },
+  {
+    "name": "Hornbaek Lake 1",
+    "lat": 56.087139,
+    "lng": 12.449194,
+    "equipment": ["pullup-bar", "dip-bars"]
+  },
+  {
+    "name": "Hornbaek Lake 2",
+    "lat": 56.088583,
+    "lng": 12.451333,
+    "equipment": ["pullup-bar", "monkey-bars"]
+  },
+  {
+    "name": "Faelledparken 1",
+    "lat": 55.706806,
+    "lng": 12.567556,
+    "equipment": ["pullup-bar", "dip-bars", "rings"]
+  },
+  {
+    "name": "Faelledparken 2",
+    "lat": 55.704361,
+    "lng": 12.571528,
+    "equipment": ["pullup-bar", "monkey-bars"]
+  },
+  {
+    "name": "Skotlands Plads",
+    "lat": 55.658222,
+    "lng": 12.605111,
+    "equipment": ["pullup-bar", "dip-bars"]
+  },
+  {
+    "name": "Strandlodsvej 1",
+    "lat": 55.664944,
+    "lng": 12.623111,
+    "equipment": ["pullup-bar", "rings"]
+  },
+  {
+    "name": "Strandlodsvej 2",
+    "lat": 55.665000,
+    "lng": 12.624750,
+    "equipment": ["pullup-bar", "dip-bars", "monkey-bars"]
+  },
+  {
+    "name": "Amager Strandvej",
+    "lat": 55.662167,
+    "lng": 12.632833,
+    "equipment": ["pullup-bar", "rings"]
+  },
+  {
+    "name": "Amager Strand",
+    "lat": 55.662417,
+    "lng": 12.638250,
+    "equipment": ["pullup-bar", "dip-bars", "monkey-bars"]
+  },
+  {
+    "name": "Amager Strand Beach",
+    "lat": 55.649389,
+    "lng": 12.647500,
+    "equipment": ["pullup-bar", "rings"]
+  },
+  {
+    "name": "Amager Strand Tiøren",
+    "lat": 55.647583,
+    "lng": 12.647361,
+    "equipment": ["pullup-bar", "dip-bars"]
+  },
+  {
+    "name": "Parco-Attrezzi Callistenia",
+    "lat": 41.892000,
+    "lng": 12.493944,
+    "equipment": ["pullup-bar", "dip-bars", "monkey-bars", "rings"]
+  },
+  {
+    "name": "Vinhomes Central Park 1",
+    "lat": 10.791028,
+    "lng": 106.723778,
+    "equipment": ["pullup-bar", "dip-bars"]
+  },
+  {
+    "name": "Vinhomes Central Park 2",
+    "lat": 10.797389,
+    "lng": 106.725722,
+    "equipment": ["pullup-bar", "monkey-bars", "rings"]
+  },
+  {
+    "name": "Hanoi",
+    "lat": 21.040028,
+    "lng": 105.846667,
+    "equipment": ["pullup-bar", "dip-bars"]
+  },
+  {
+    "name": "Charlottenlund Strandpark",
+    "lat": 55.749500,
+    "lng": 12.590333,
+    "equipment": ["pullup-bar", "rings"]
+  },
+  {
+    "name": "OpenBars",
+    "lat": 3.103980,
+    "lng": 101.674991,
+    "equipment": ["pullup-bar", "dip-bars", "monkey-bars"]
+  },
+  {
+    "name": "Honkamata Park",
+    "lat": 35.559611,
+    "lng": 139.717944,
+    "equipment": ["pullup-bar", "dip-bars", "rings"]
+  },
+  {
+    "name": "Nakakamata Park",
+    "lat": 35.559417,
+    "lng": 139.721000,
+    "equipment": ["pullup-bar", "monkey-bars"]
+  },
+  {
+    "name": "Street Workout Park",
+    "lat": 6.235910,
+    "lng": -75.564929,
+    "equipment": ["pullup-bar", "dip-bars", "monkey-bars", "rings"]
+  },
+  {
+    "name": "Rincon Calisthenics Park",
+    "lat": 10.035821,
+    "lng": -84.453442,
+    "equipment": ["pullup-bar", "dip-bars", "rings"]
+  }
+] 
