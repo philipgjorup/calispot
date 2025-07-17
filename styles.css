@@ -270,37 +270,76 @@ button:hover, .button:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  header {
+    height: 60px;
+    padding: 0;
+  }
   .header-content {
-    flex-direction: column;
-    align-items: stretch;
-    height: auto;
-    padding: 4px 4px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 12px;
   }
   .logo-tagline {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-    margin-bottom: 2px;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+  }
+  .tagline {
+    display: none;
   }
   nav ul {
-    flex-direction: column;
-    gap: 2px;
-    align-items: flex-start;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    margin: 0;
   }
-  nav a, select {
-    font-size: 0.9rem;
-    padding: 2px 5px;
+  nav a {
+    font-size: 0.8rem;
+    padding: 4px 6px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
   }
   select {
-    min-width: 80px;
-    height: 24px;
-  }
-  header {
-    height: auto;
-    min-height: 0;
+    font-size: 0.8rem;
+    padding: 2px 4px;
+    min-width: 70px;
+    height: 32px;
   }
   #map {
-    height: calc(85vh - 40px);
+    height: calc(100vh - 60px - 32px);
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 50px;
+  }
+  .header-content {
+    padding: 0 8px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  nav a {
+    font-size: 0.75rem;
+    padding: 3px 4px;
+    min-height: 28px;
+  }
+  select {
+    font-size: 0.75rem;
+    min-width: 60px;
+    height: 28px;
+  }
+  #map {
+    height: calc(100vh - 50px - 32px);
   }
 } 
