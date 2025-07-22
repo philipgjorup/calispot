@@ -43,18 +43,209 @@
         <button id="zoom-in" title="Zoom in">+</button>
         <button id="zoom-out" title="Zoom out">-</button>
       </div>
+      <div id="loading-message" class="loading-message" style="display:none;">
+        <div class="loading-spinner"></div>
+        <span id="loading-text">Loading...</span>
+      </div>
+      <div id="filter-count" class="filter-count" style="display:none;"></div>
     </div>
+    <div id="choose-location-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close-btn" aria-label="Close">&times;</button>
+        <h2>Choose Location</h2>
+        <div class="modal-section">
+          <h3>Popular Destinations</h3>
+          <ul id="popular-countries" class="country-list"></ul>
+        </div>
+        <div class="modal-section">
+          <h3>Other Countries</h3>
+          <ul id="other-countries" class="country-list"></ul>
+        </div>
+      </div>
+    </div>
+    <div id="map-message" class="map-message" style="display:none;"></div>
   </main>
   <footer>
     <div class="footer-content">
-      <span>© 2024 CaliSpot</span>
-      <span class="footer-links">
-        <a href="#">Instagram</a> |
-        <a href="#">Twitter</a> |
-        <a href="#">Privacy Notice</a>
-      </span>
+      <div class="footer-left">
+        <span>© 2024 CaliSpot</span>
+        <span class="footer-separator">|</span>
+        <a href="#" id="privacy-notice">Privacy Notice</a>
+        <span class="footer-separator">|</span>
+        <a href="#" id="add-location">Add Location</a>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/philipgjorup/calispot" target="_blank" rel="noopener">GitHub</a>
+        <span class="footer-separator">|</span>
+        <a href="#" id="about-calispot">About</a>
+        <span class="footer-separator">|</span>
+        <a href="#" id="contact">Contact</a>
+      </div>
     </div>
   </footer>
+  
+  <!-- Privacy Notice Modal -->
+  <div id="privacy-modal" class="modal" style="display:none;">
+    <div class="modal-content privacy-content">
+      <h2>Privacy Notice</h2>
+      <div class="privacy-content">
+        <p><strong>CaliSpot Privacy Notice</strong></p>
+        <ul>
+          <li>Your location is only used to find nearby workout spots</li>
+          <li>We never store, track, or share your location data</li>
+          <li>All workout locations are community-contributed and public</li>
+          <li>No cookies, analytics, or personal data collection</li>
+          <li>Open source project - view our code on <a href="https://github.com/philipgjorup/calispot" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+        <p class="modal-close-hint">Click outside to close</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- About Modal -->
+  <div id="about-modal" class="modal" style="display:none;">
+    <div class="modal-content about-content">
+      <h2>About CaliSpot</h2>
+      <div class="about-content">
+        <p>CaliSpot helps people find outdoor workout spots around the world. We believe fitness should be accessible, natural, and free for everyone.</p>
+        
+        <div class="about-section">
+          <h3>🏋️‍♂️ What We Do</h3>
+          <ul>
+            <li>Map calisthenics parks and street workout equipment globally</li>
+            <li>Connect the outdoor fitness community</li>
+            <li>Make training spots easy to find anywhere</li>
+          </ul>
+        </div>
+        
+        <div class="about-section">
+          <h3>🌍 Community Powered</h3>
+          <ul>
+            <li>Anyone can add new locations - no account needed</li>
+            <li>Help fellow athletes discover training spots</li>
+          </ul>
+        </div>
+        
+        <div class="about-section">
+          <h3>💪 Our Mission</h3>
+          <p>Get more people outdoors, moving, and living healthier lives. Every location you add helps someone start their fitness journey.</p>
+        </div>
+        
+        <div class="about-cta">
+          <p><strong>Join the movement</strong> - add a location and keep it natural & gritty!</p>
+          <p class="about-footer">Open source and built with ❤️ for the street workout community.</p>
+        </div>
+        <p class="modal-close-hint">Click outside to close</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Modal -->
+  <div id="contact-modal" class="modal" style="display:none;">
+    <div class="modal-content contact-content">
+      <h2>Contact & Connect</h2>
+      <div class="contact-content">
+        <p>Get in touch or follow the project:</p>
+        <div class="contact-links">
+          <div class="contact-item">
+            <strong>Primal:</strong> 
+            <a href="https://primal.net/p/nprofile1qqs80t36jmhqhvqey08w78hsryplyc8k74h54p0trtekhcxp7vyygksatfymp" target="_blank" rel="noopener">@p_gjorup</a>
+          </div>
+          <div class="contact-item">
+            <strong>X (Twitter):</strong> 
+            <a href="https://x.com/p_gjorup" target="_blank" rel="noopener">@p_gjorup</a>
+          </div>
+          <div class="contact-item">
+            <strong>Email:</strong> 
+            <a href="mailto:philgjo@proton.me">philgjo@proton.me</a>
+          </div>
+          <div class="contact-item">
+            <strong>Signal:</strong> 
+            <span class="contact-text">philip.353</span>
+          </div>
+        </div>
+        <p class="contact-note">For project contributions, please use GitHub issues and pull requests.</p>
+        <p class="modal-close-hint">Click outside to close</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Add Location Modal -->
+  <div id="add-location-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <h2>Add a Location</h2>
+      <p>Help the community by adding a new workout spot!</p>
+      <p>Coming soon - we're building the submission form.</p>
+      <p class="modal-close-hint">Click outside to close</p>
+    </div>
+  </div>
+
+  <!-- Location Details Modal -->
+  <div id="location-details-modal" class="modal" style="display:none;">
+    <div class="modal-content location-details-content">
+      <div class="location-header">
+        <h2 id="location-name"></h2>
+        <span id="location-verified-badge" class="verified-badge" style="display:none;">✓ Verified</span>
+      </div>
+      
+      <div class="location-description">
+        <p id="location-description"></p>
+      </div>
+
+      <div class="location-section">
+        <h3>🏋️ Equipment</h3>
+        <div id="location-equipment" class="equipment-list"></div>
+      </div>
+
+      <div class="location-section">
+        <h3>📍 Practical Info</h3>
+        <div class="info-grid">
+          <div class="info-item">
+            <span class="info-label">Surface:</span>
+            <span id="location-surface" class="info-value"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Accessibility:</span>
+            <span id="location-accessibility" class="info-value"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Lighting:</span>
+            <span id="location-lighting" class="info-value"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Parking:</span>
+            <span id="location-parking" class="info-value"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="location-section">
+        <h3>⏰ Best Time to Visit</h3>
+        <div class="info-grid">
+          <div class="info-item">
+            <span class="info-label">Recommended:</span>
+            <span id="location-best-time" class="info-value"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Crowd Level:</span>
+            <span id="location-crowd" class="info-value"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="location-section">
+        <h3>🏪 Nearby Facilities</h3>
+        <div id="location-facilities" class="facilities-list"></div>
+      </div>
+
+      <div id="location-warnings-section" class="location-section" style="display:none;">
+        <h3>⚠️ Warnings</h3>
+        <div id="location-warnings" class="warnings-list"></div>
+      </div>
+
+      <p class="modal-close-hint">Click outside to close</p>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html> 
