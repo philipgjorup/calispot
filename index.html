@@ -35,6 +35,12 @@
           </li>
         </ul>
       </nav>
+      <div class="nostr-status">
+        <a href="#" id="nostr-login" class="nostr-btn" title="Connect with Nostr">
+          <span class="nostr-icon">⚡</span>
+          <span class="nostr-text">Connect</span>
+        </a>
+      </div>
     </div>
   </header>
   <main>
@@ -49,9 +55,15 @@
       </div>
       <div id="filter-count" class="filter-count" style="display:none;"></div>
     </div>
+    
+    <!-- Nostr User Info Display -->
+    <div id="nostr-user-info" class="nostr-user-info">
+      <div class="npub" id="nostr-npub"></div>
+      <button class="logout-btn" id="nostr-logout">Disconnect</button>
+    </div>
     <div id="choose-location-modal" class="modal" style="display:none;">
       <div class="modal-content">
-        <button class="modal-close" id="modal-close-btn" aria-label="Close">&times;</button>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close location selection">×</button>
         <h2>Choose Location</h2>
         <div class="modal-section">
           <h3>Popular Destinations</h3>
@@ -60,6 +72,9 @@
         <div class="modal-section">
           <h3>Other Countries</h3>
           <ul id="other-countries" class="country-list"></ul>
+        </div>
+        <div class="modal-close-text">
+          <span class="close-text-link">Click here to close</span>
         </div>
       </div>
     </div>
@@ -87,6 +102,7 @@
   <!-- Privacy Notice Modal -->
   <div id="privacy-modal" class="modal" style="display:none;">
     <div class="modal-content privacy-content">
+      <button class="modal-close-btn" id="privacy-modal-close" aria-label="Close privacy notice">✕</button>
       <h2>Privacy Notice</h2>
       <div class="privacy-content">
         <p><strong>CaliSpot Privacy Notice</strong></p>
@@ -97,7 +113,9 @@
           <li>No cookies, analytics, or personal data collection</li>
           <li>Open source project - view our code on <a href="https://github.com/philipgjorup/calispot" target="_blank" rel="noopener">GitHub</a></li>
         </ul>
-        <p class="modal-close-hint">Click outside to close</p>
+        <div class="modal-close-text">
+          <span class="close-text-link">Click here to close</span>
+        </div>
       </div>
     </div>
   </div>
@@ -105,6 +123,7 @@
   <!-- About Modal -->
   <div id="about-modal" class="modal" style="display:none;">
     <div class="modal-content about-content">
+      <button class="modal-close-btn" id="about-modal-close" aria-label="Close about">✕</button>
       <h2>About CaliSpot</h2>
       <div class="about-content">
         <p>CaliSpot helps people find outdoor workout spots around the world. We believe fitness should be accessible, natural, and free for everyone.</p>
@@ -131,18 +150,21 @@
           <p>Get more people outdoors, moving, and living healthier lives. Every location you add helps someone start their fitness journey.</p>
         </div>
         
-        <div class="about-cta">
-          <p><strong>Join the movement</strong> - add a location and keep it natural & gritty!</p>
-          <p class="about-footer">Open source and built with ❤️ for the street workout community.</p>
+                  <div class="about-cta">
+            <p><strong>Join the movement</strong> - add a location and keep it natural & gritty!</p>
+            <p class="about-footer">Open source and built with ❤️ for the street workout community.</p>
+          </div>
+          <div class="modal-close-text">
+            <span class="close-text-link">Click here to close</span>
+          </div>
         </div>
-        <p class="modal-close-hint">Click outside to close</p>
-      </div>
     </div>
   </div>
   
   <!-- Contact Modal -->
   <div id="contact-modal" class="modal" style="display:none;">
     <div class="modal-content contact-content">
+      <button class="modal-close-btn" id="contact-modal-close" aria-label="Close contact">✕</button>
       <h2>Contact & Connect</h2>
       <div class="contact-content">
         <p>Get in touch or follow the project:</p>
@@ -165,7 +187,9 @@
           </div>
         </div>
         <p class="contact-note">For project contributions, please use GitHub issues and pull requests.</p>
-        <p class="modal-close-hint">Click outside to close</p>
+        <div class="modal-close-text">
+          <span class="close-text-link">Click here to close</span>
+        </div>
       </div>
     </div>
   </div>
@@ -173,19 +197,29 @@
   <!-- Add Location Modal -->
   <div id="add-location-modal" class="modal" style="display:none;">
     <div class="modal-content">
+      <button class="modal-close-btn" id="add-location-modal-close" aria-label="Close add location">✕</button>
       <h2>Add a Location</h2>
       <p>Help the community by adding a new workout spot!</p>
       <p>Coming soon - we're building the submission form.</p>
-      <p class="modal-close-hint">Click outside to close</p>
+      <div class="modal-close-text">
+        <span class="close-text-link">Click here to close</span>
+      </div>
     </div>
   </div>
 
   <!-- Location Details Modal -->
   <div id="location-details-modal" class="modal" style="display:none;">
     <div class="modal-content location-details-content">
+      <!-- Close button -->
+      <button class="modal-close-btn" id="location-modal-close" aria-label="Close location details">✕</button>
+      
       <div class="location-header">
         <h2 id="location-name"></h2>
         <span id="location-verified-badge" class="verified-badge" style="display:none;">✓ Verified</span>
+      </div>
+      
+      <div id="location-photo-section" class="location-photo-section" style="display:none;">
+        <img id="location-photo" class="location-photo" alt="Location photo" />
       </div>
       
       <div class="location-description">
@@ -242,10 +276,12 @@
         <h3>⚠️ Warnings</h3>
         <div id="location-warnings" class="warnings-list"></div>
       </div>
-
-      <p class="modal-close-hint">Click outside to close</p>
+      <div class="modal-close-text">
+        <span class="close-text-link">Click here to close</span>
+      </div>
     </div>
   </div>
+  <script src="https://unpkg.com/nostr-tools@1.17.0/lib/nostr.browser.js"></script>
   <script src="script.js"></script>
 </body>
 </html> 

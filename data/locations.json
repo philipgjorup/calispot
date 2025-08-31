@@ -3,7 +3,9 @@
     "name": "Hjortedam Forest Pullup Bar",
     "lat": 55.771694,
     "lng": 12.547472,
-    "equipment": ["pullup-bar"],
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Single pullup bar in forest setting near Hjortedam Lake.",
     "surface_type": "grass, dirt",
     "accessibility": "difficult",
@@ -14,13 +16,16 @@
     "best_time": "morning or afternoon",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Hornbaek Lake 1",
     "lat": 56.087139,
     "lng": 12.449194,
-    "equipment": ["pullup-bar"],
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Pullup bar by Hornbaek Lake.",
     "surface_type": "grass",
     "accessibility": "easy",
@@ -31,13 +36,16 @@
     "best_time": "anytime",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Hornbaek Lake 2",
     "lat": 56.088583,
     "lng": 12.451333,
-    "equipment": ["pullup-bar"],
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Second pullup bar at Hornbaek Lake, slightly more secluded than the first.",
     "surface_type": "grass",
     "accessibility": "easy",
@@ -48,13 +56,17 @@
     "best_time": "anytime",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Faelledparken 1",
     "lat": 55.706806,
     "lng": 12.567556,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Popular outdoor gym in Copenhagen's largest park. Multiple pullup bars and dip stations.",
     "surface_type": "rubber",
     "accessibility": "easy",
@@ -65,13 +77,17 @@
     "best_time": "anytime",
     "crowd_level": "moderate",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Faelledparken 2",
     "lat": 55.704361,
     "lng": 12.571528,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Additional outdoor gym area in Faelledparken with pullup bars and dip stations.",
     "surface_type": "rubber",
     "accessibility": "easy",
@@ -82,13 +98,17 @@
     "best_time": "anytime",
     "crowd_level": "moderate",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Skotlands Plads",
     "lat": 55.658222,
     "lng": 12.605111,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Pullup bars and dip stations in residential area.",
     "surface_type": "concrete",
     "accessibility": "easy",
@@ -99,13 +119,17 @@
     "best_time": "anytime",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Strandlodsvej 19",
     "lat": 55.664944,
     "lng": 12.623111,
-    "equipment": ["pullup-bar", "monkey-bars"],
+    "equipment": [
+      "pullup-bar",
+      "monkey-bars"
+    ],
     "description": "Pullup and Monkey bars in residential area",
     "surface_type": "rubber",
     "accessibility": "easy",
@@ -116,13 +140,16 @@
     "best_time": "anytime",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Strandlodsvej 23",
-    "lat": 55.665000,
-    "lng": 12.624750,
-    "equipment": ["pullup-bar"],
+    "lat": 55.665,
+    "lng": 12.62475,
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Pullup bar in residential area",
     "surface_type": "rubber",
     "accessibility": "easy",
@@ -133,13 +160,17 @@
     "best_time": "anytime",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Amager Strandvej",
     "lat": 55.662167,
     "lng": 12.632833,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Beachside outdoor gym with pullup bars and dip stations, ocean view.",
     "surface_type": "sand",
     "accessibility": "easy",
@@ -149,14 +180,19 @@
     "facilities_nearby": "restrooms, restaurants, cafe, groceries",
     "best_time": "anytime",
     "crowd_level": "moderate",
-    "warnings": ["slippery when wet, ponds form during rain"],
-    "photos": []
+    "warnings": [
+      "slippery when wet, ponds form during rain"
+    ],
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Amager Strand",
     "lat": 55.662417,
-    "lng": 12.638250,
-    "equipment": ["pullup-bar"],
+    "lng": 12.63825,
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Beach workout spot with pullup",
     "surface_type": "sand/grass",
     "accessibility": "easy",
@@ -166,14 +202,20 @@
     "facilities_nearby": "restrooms, water fountain",
     "best_time": "anytime",
     "crowd_level": "busy during summer months",
-    "warnings": ["slippery when wet"],
-    "photos": []
+    "warnings": [
+      "slippery when wet"
+    ],
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Amager Strand Beach",
     "lat": 55.649389,
-    "lng": 12.647500,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "lng": 12.6475,
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "multiple pullup bars and dip bars on the beach, perfect for a quick workout with ocean views.",
     "surface_type": "sand",
     "accessibility": "easy",
@@ -183,14 +225,22 @@
     "facilities_nearby": "none",
     "best_time": "anytime",
     "crowd_level": "busy during summer months",
-    "warnings": ["slippery when wet"],
-    "photos": []
+    "warnings": [
+      "slippery when wet"
+    ],
+    "photos": [
+      "https://images.squarespace-cdn.com/content/v1/5327288de4b016a25f0a7ced/1464946932271-N3IEHVUN7ZPQF63WIK1B/20160521_Copenhagen_353_1920px.jpg?format=1000w"
+    ],
+    "country": "Denmark"
   },
   {
     "name": "Amager Strand Tiøren",
     "lat": 55.647583,
     "lng": 12.647361,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Beach workout area with pullup bars and dip stations near Tiøren.",
     "surface_type": "grass",
     "accessibility": "easy",
@@ -200,14 +250,20 @@
     "facilities_nearby": "none",
     "best_time": "anytime",
     "crowd_level": "usually_empty",
-    "warnings": ["slippery when wet"],
-    "photos": []
+    "warnings": [
+      "slippery when wet"
+    ],
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "Parco-Attrezzi Callistenia",
-    "lat": 41.892000,
+    "lat": 41.892,
     "lng": 12.493944,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Calisthenics park in Rome with pullup bars and dip stations.",
     "surface_type": "rubber",
     "accessibility": "easy",
@@ -218,13 +274,17 @@
     "best_time": "evening",
     "crowd_level": "moderate",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Italy"
   },
   {
     "name": "Vinhomes Central Park 1",
     "lat": 10.791028,
     "lng": 106.723778,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Modern outdoor gym in Ho Chi Minh City with pullup bars and dip stations.",
     "surface_type": "rubber",
     "accessibility": "easy",
@@ -235,13 +295,16 @@
     "best_time": "anytime",
     "crowd_level": "moderate",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Vietnam"
   },
   {
     "name": "Vinhomes Central Park 2",
     "lat": 10.797389,
     "lng": 106.725722,
-    "equipment": ["pullup-bar"],
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Additional pullup bar location in Vinhomes Central Park area.",
     "surface_type": "rubber",
     "accessibility": "easy",
@@ -252,13 +315,16 @@
     "best_time": "anytime",
     "crowd_level": "moderate",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Vietnam"
   },
   {
     "name": "Hanoi",
     "lat": 21.040028,
     "lng": 105.846667,
-    "equipment": ["pullup-bar"],
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Pullup bar in Hanoi, Vietnam for outdoor workouts.",
     "surface_type": "concrete",
     "accessibility": "easy",
@@ -268,14 +334,20 @@
     "facilities_nearby": "none",
     "best_time": "early_morning",
     "crowd_level": "moderate",
-    "warnings": ["smelly, rats are roaming around"],
-    "photos": []
+    "warnings": [
+      "smelly, rats are roaming around"
+    ],
+    "photos": [],
+    "country": "Vietnam"
   },
   {
     "name": "Charlottenlund Strandpark",
-    "lat": 55.749500,
+    "lat": 55.7495,
     "lng": 12.590333,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Beach park workout area with pullup bars and dip stations.",
     "surface_type": "sand/grass",
     "accessibility": "easy",
@@ -285,14 +357,20 @@
     "facilities_nearby": "cafe",
     "best_time": "anytime",
     "crowd_level": "moderate",
-    "warnings": ["slippery when wet"],
-    "photos": []
+    "warnings": [
+      "slippery when wet"
+    ],
+    "photos": [],
+    "country": "Denmark"
   },
   {
     "name": "OpenBars",
-    "lat": 3.103980,
+    "lat": 3.10398,
     "lng": 101.674991,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Outdoor gym in Malaysia with pullup bars and dip stations.",
     "surface_type": "concrete",
     "accessibility": "easy",
@@ -303,13 +381,16 @@
     "best_time": "early_morning",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Malaysia"
   },
   {
     "name": "Honkamata Park",
     "lat": 35.559611,
     "lng": 139.717944,
-    "equipment": ["pullup-bar"],
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Pullup bar in Japanese park setting.",
     "surface_type": "concrete",
     "accessibility": "easy",
@@ -320,13 +401,16 @@
     "best_time": "early_morning",
     "crowd_level": "moderate",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Japan"
   },
   {
     "name": "Nakakamata Park",
     "lat": 35.559417,
-    "lng": 139.721000,
-    "equipment": ["pullup-bar"],
+    "lng": 139.721,
+    "equipment": [
+      "pullup-bar"
+    ],
     "description": "Additional pullup bar location in Japanese park.",
     "surface_type": "concrete",
     "accessibility": "easy",
@@ -337,13 +421,17 @@
     "best_time": "early_morning",
     "crowd_level": "moderate",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Japan"
   },
   {
     "name": "Street Workout Park",
-    "lat": 6.235910,
+    "lat": 6.23591,
     "lng": -75.564929,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Street workout park in Colombia with pullup bars and dip stations.",
     "surface_type": "concrete",
     "accessibility": "easy",
@@ -353,14 +441,20 @@
     "facilities_nearby": "none",
     "best_time": "morning",
     "crowd_level": "moderate",
-    "warnings": ["Medellín can be dangerous"],
-    "photos": []
+    "warnings": [
+      "Medellín can be dangerous"
+    ],
+    "photos": [],
+    "country": "Colombia"
   },
   {
     "name": "Rincon Calisthenics Park",
     "lat": 10.035821,
     "lng": -84.453442,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Calisthenics park in rural town with pullup bars and dip stations.",
     "surface_type": "grass",
     "accessibility": "easy",
@@ -371,13 +465,17 @@
     "best_time": "anytime",
     "crowd_level": "usually_empty",
     "warnings": [],
-    "photos": []
+    "photos": [],
+    "country": "Costa Rica"
   },
   {
     "name": "Polideportivo Palmares CR",
     "lat": 10.052472,
-    "lng": -84.435750,
-    "equipment": ["pullup-bar", "dip-bars"],
+    "lng": -84.43575,
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
     "description": "Sports complex in rural town with outdoor pullup bars and dip stations.",
     "surface_type": "concrete/grass",
     "accessibility": "moderate",
@@ -387,7 +485,362 @@
     "facilities_nearby": "restrooms, water fountain",
     "best_time": "7AM-4PM on Weekdays and 9AM-12PM on Weekends",
     "crowd_level": "moderate",
-    "warnings": ["Don't be caught in heavy rainfall"],
-    "photos": []
+    "warnings": [
+      "Don't be caught in heavy rainfall"
+    ],
+    "photos": [],
+    "country": "Costa Rica"
+  },
+  {
+    "name": "Glenten Naturlegeplads",
+    "lat": 55.96136917099641,
+    "lng": 12.429579837565527,
+    "equipment": [
+      "pullup-bar",
+      "dip-bars"
+    ],
+    "description": "Forest playground with calisthenics equipment, walking/running access only",
+    "surface_type": "forest floor",
+    "accessibility": "difficult",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours only",
+    "crowd_level": "usually_empty",
+    "warnings": [
+      "cold and dark in winter",
+      "1-2km walk from parking"
+    ],
+    "photos": [],
+    "country": "Denmark"
+  },
+  {
+    "name": "Konditaget Lüders",
+    "lat": 56.97534144223411,
+    "lng": 19.98731670823097,
+    "equipment": [
+      "pullup-bar",
+      "monkey-bars",
+      "dip-bars"
+    ],
+    "description": "Rooftop calisthenics park with city views",
+    "surface_type": "soft artificial",
+    "accessibility": "easy",
+    "night_lighting": true,
+    "verified": false,
+    "parking_nearby": true,
+    "facilities_nearby": "urban amenities",
+    "best_time": "anytime",
+    "crowd_level": "moderate",
+    "warnings": [
+      "cold during winter"
+    ],
+    "photos": [],
+    "country": "Denmark"
+  },
+  {
+    "name": "Near Strandlodsvej Apartments",
+    "lat": 56.97534144223411,
+    "lng": 19.108410546051932,
+    "equipment": [
+      "monkey-bars",
+      "pullup-bar"
+    ],
+    "description": "Apartment complex workout area with abs bench",
+    "surface_type": "dirt/rocks",
+    "accessibility": "easy",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": true,
+    "facilities_nearby": "residential area",
+    "best_time": "daytime",
+    "crowd_level": "usually_empty",
+    "warnings": [
+      "muddy in winter/rain",
+      "limited lighting from apartments"
+    ],
+    "photos": [],
+    "country": "Denmark"
+  },
+  {
+    "name": "Bangsbo legeplads Forest",
+    "lat": 57.4181472776357,
+    "lng": 10.501741456670926,
+    "equipment": [
+      "pullup-bar"
+    ],
+    "description": "Forest playground with single pullup bar",
+    "surface_type": "forest floor",
+    "accessibility": "difficult",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": true,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "usually_empty",
+    "warnings": [
+      "hard to find",
+      "no lighting"
+    ],
+    "photos": [],
+    "country": "Denmark"
+  },
+  {
+    "name": "Calisthenics Park Florence",
+    "lat": 43.76232356252799,
+    "lng": 11.308250064128158,
+    "equipment": [
+      "pullup-bar"
+    ],
+    "description": "Florence calisthenics spot with abs bench",
+    "surface_type": "grass/dirt",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "city center amenities",
+    "best_time": "daylight hours",
+    "crowd_level": "moderate",
+    "warnings": [
+      "no lighting"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Palestra Calisthenics",
+    "lat": 43.75061152536713,
+    "lng": 11.189332813295652,
+    "equipment": [
+      "monkey-bars",
+      "pullup-bar"
+    ],
+    "description": "Calisthenics area with monkey bars and pullup bars",
+    "surface_type": "small rocks/dirt",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "moderate",
+    "warnings": [
+      "no lighting"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Calisthenics Park Florence 2",
+    "lat": 43.76036201347894,
+    "lng": 11.244458565430888,
+    "equipment": [
+      "pullup-bar"
+    ],
+    "description": "Florence area calisthenics location",
+    "surface_type": "concrete/dirt",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "city amenities",
+    "best_time": "daylight hours",
+    "crowd_level": "moderate",
+    "warnings": [
+      "details need verification"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Parco Fitness Calisthenics",
+    "lat": 43.77592775400181,
+    "lng": 11.190846182615749,
+    "equipment": [
+      "pullup-bar"
+    ],
+    "description": "Grass fitness park with pullup bar and ladder",
+    "surface_type": "grass",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "usually_empty",
+    "warnings": [
+      "no lighting"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Parco Fitness Calisthenics 2",
+    "lat": 43.79082006982252,
+    "lng": 11.171829516638276,
+    "equipment": [
+      "monkey-bars",
+      "pullup-bar",
+      "dip-bars"
+    ],
+    "description": "Large workout area with multiple equipment types and pushup bars",
+    "surface_type": "asphalt",
+    "accessibility": "easy",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "moderate",
+    "warnings": [
+      "no lighting"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Palestra all'aperto - Calisthenics",
+    "lat": 43.82503317343664,
+    "lng": 11.203196776265967,
+    "equipment": [
+      "rings",
+      "pullup-bar",
+      "monkey-bars"
+    ],
+    "description": "Outdoor gym with rings, pullup bars, monkey bars and ladder",
+    "surface_type": "soft artificial",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "moderate",
+    "warnings": [
+      "no lighting",
+      "no parking"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Strutture fitness e calisthenics",
+    "lat": 43.83269114589578,
+    "lng": 11.150435353546369,
+    "equipment": [
+      "pullup-bar",
+      "monkey-bars"
+    ],
+    "description": "Grass area with pullup bars, monkey bars and ladder",
+    "surface_type": "grass",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "usually_empty",
+    "warnings": [
+      "no lighting",
+      "no parking"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Palestra all'aperto - Calisthenics 2",
+    "lat": 43.83022215593785,
+    "lng": 11.21522150694587,
+    "equipment": [
+      "monkey-bars",
+      "dip-bars",
+      "pullup-bar"
+    ],
+    "description": "Sand and grass area with multiple equipment types",
+    "surface_type": "sand/grass",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "usually_empty",
+    "warnings": [
+      "no lighting",
+      "no parking"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Area Fitness Montelupo",
+    "lat": 43.73181518106776,
+    "lng": 11.018906614906166,
+    "equipment": [
+      "monkey-bars",
+      "pullup-bar",
+      "dip-bars"
+    ],
+    "description": "Fitness area with equipment for all ages including elderly fitness zone",
+    "surface_type": "grass/sand",
+    "accessibility": "easy",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "none",
+    "best_time": "daylight hours",
+    "crowd_level": "moderate",
+    "warnings": [
+      "no lighting",
+      "no parking"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "Parco Giochi - Playground",
+    "lat": 43.060901795361666,
+    "lng": 11.48897474558607,
+    "equipment": [
+      "pullup-bar"
+    ],
+    "description": "Playground with pullup bars and ladder, beautiful Tuscany views",
+    "surface_type": "dirt/sand",
+    "accessibility": "easy",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": true,
+    "facilities_nearby": "restaurants, cafes",
+    "best_time": "early morning or evening",
+    "crowd_level": "moderate",
+    "warnings": [
+      "very hot in summer",
+      "playground setting"
+    ],
+    "photos": [],
+    "country": "Italy"
+  },
+  {
+    "name": "San Quirico d'Orcia Calisthenics Park",
+    "lat": 43.07293336838428,
+    "lng": 11.625273329807348,
+    "equipment": [
+      "pullup-bar"
+    ],
+    "description": "Siena area calisthenics location",
+    "surface_type": "concrete/dirt",
+    "accessibility": "moderate",
+    "night_lighting": false,
+    "verified": false,
+    "parking_nearby": false,
+    "facilities_nearby": "small town amenities",
+    "best_time": "daylight hours",
+    "crowd_level": "usually_empty",
+    "warnings": [
+      "details need verification"
+    ],
+    "photos": [],
+    "country": "Italy"
   }
-] 
+]

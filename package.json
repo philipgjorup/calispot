@@ -13,5 +13,8 @@
   "type": "commonjs",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "nostr-tools": "^2.16.2"
   }
 }
